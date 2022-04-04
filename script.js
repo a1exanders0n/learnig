@@ -1,9 +1,8 @@
 //learning
-function showMessage() {
-    let message = "Привіт, я JavaScript!"; // локальна змінна
-  
-    alert( message );
-  }
-  
-  showMessage(); // Привіт, я JavaScript!
-  
+const autoBrands = ['audi', 'bmw', 'toyota', 'mazda'];
+
+// autoBrands.forEach(function (brand, i) {
+//   console.log(`${brand} => ${i}`);
+// })
+
+autoBrands.forEach((brand, i) => console.log(`${brand} => ${i}`));

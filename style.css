@@ -2,9 +2,5 @@ h1 {
     font-size: 16px;
     color: red;
 }
-div {
-    animation: cubic-bezier(0.23, 1, 0.320, 1);
-    animation-duration: 5s;
-}
 
 
